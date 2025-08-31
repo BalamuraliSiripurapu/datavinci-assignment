@@ -1,0 +1,153 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #FBF9F6;
+    @media screen and (min-width: 768px) {
+        padding: 12px;
+    }
+    
+}
+
+.header-responsive-container {
+  width: 90%;
+  max-width: 660px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header-responsive-container {
+        width: 90%;
+        max-width: 1320px;
+    }
+}
+
+.hamburger-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+.nav-heading {
+    color: #313131;
+    font-family: Segoe UI;
+    font-weight: 500;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: 1px solid #313131;
+    border-radius: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-self: left;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-heading {
+        display: none;
+    }
+}
+
+.website-icon {
+    width: 100px;
+    height: 44px;
+}
+
+@media screen and (min-width: 768px) {
+    .website-icon {
+        width: 200px;
+        height: 88px;
+    }
+}
+
+.nav-menu-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-menu-list {
+        display: none;
+    }
+}
+
+.nav-item {
+    color: #313131;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
+}
+
+@media screen and (min-width: 768px) {
+.nav-item {
+    font-size: 18px;
+    margin-left: 24px;
+}
+}
+.nav-icons-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.interactive-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .interactive-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 32px;
+}
+}
+
+.mobile-nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-nav-menu {
+        display: none;
+    }
+}
